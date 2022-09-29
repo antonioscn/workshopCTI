@@ -1,44 +1,67 @@
+
+<!-- INTRODUÇÃO À CRIAÇÃO DE PÁGINAS WEB COM HTML E CSS -->
+
+
+<!-- HTML -->
+<!-- Informando a versão do HTML e algumas especificaçãoes como link para o arquivo em css e o titulo da pág-->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Newslatter</title>
-
+    <link rel="stylesheet" href="./style.css"> <!-- fazendo link com o arquivo css -->
+    <title>Newslatter</title> <!-- Definindo Titulo da página -->
 </head>
-<body>
-    <header>
-        <a href="index.html">
-            <img class="imagem" src="./imgs/instituto-reconcavo-de-tecnologia-logo-medio.png" alt="Logo irt">
-        </a>
 
+<!-- corpo do site -->
+<body>
+    <!-- cabeçalho -->
+    <header class="cabecalho">
+        <!-- logo -->
+        <a href="index.html">
+            <img class="imagem-menu" src="./imgs/instituto-reconcavo-de-tecnologia-logo-medio.png" alt="Logo irt"> <!-- definindo imagem -->
+        </a>
+        <!-- menu -->
         <nav class="menu">
             <a href="#">Inicio</a>
             <a href="#">Sobre</a>
-            <a href="#">Nosso Time</a>
             <a href="#">Sugestões</a>
-            <a href="#" class="insc-btn">Site Oficial</a>
+            <a href="#">Site Oficial</a>
         </nav>
-
     </header>
 
-
+    <!-- conteúdo geral -->
     <main class="conteudo">
-        <div class="textos">
-            <h2><span>Inscreva-se agora</span> <br> na Newsletter</h2>
-            <p>Seja bem-vindo(a) à newsletter do IRT. Aqui você ficará por dentro dos principais acontecimentos relacionados à Ciência, Tecnologia, e Inovação. </p>       
-        
-            <form action="">
-                <input type="text" placeholder="Nome">
-                <input type="email" placeholder="Email">
-                <input type="submit" placeholder="Enviar >">
-            </form>
+        <!-- textos -->
+        <div class="conteudo-principal">
+            <div class="textos">
+                <div class="texto">
+                    <h2><span>Inscreva-se agora</span> <br> na Newsletter</h2> <!-- Criando titulo inicial e criando um "span" para destacar parte do texto -->
+                   <!-- criando paragrafo -->
+                    <p>Seja bem-vindo(a) à newsletter do IRT. Aqui você ficará por dentro dos principais acontecimentos relacionados à Ciência, Tecnologia, e Inovação. </p>       
+                </div>
+                <!-- formulário -->
+                <div class="formulario">
+                    <form action="">
+                        <input type="text" placeholder="Nome"> <!-- Campo input para textos -->
+                        <input type="email" placeholder="Email"> <!-- Campo input para email -->
+                        <input type="submit" placeholder="Enviar"> <!-- Campo input para submissão = botão para enviar formulário -->
+                    </form>
+                </div>
+            </div>             
+            <!-- imagem -->
+            <div class="imagem">    
+                <img src="./imgs/undraw_newsletter_re_wrob.svg" alt="ilustração de uma mulher">
+            </div>
         </div>
-
-        <img src="./imgs/undraw_newsletter_re_wrob.svg" alt="woman">
     </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <hr> <!-- Criando linha -->
+        <p>Landingpage desenvolvida durante o II Workshop de Ciência, Tecnologia, e Inovação | Camaçari - BA</p> <!-- Texto que vai ficar no rodape -->
+    </footer>
 
 </body>
 </html>

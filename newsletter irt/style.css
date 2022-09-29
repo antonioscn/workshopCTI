@@ -1,59 +1,81 @@
+
+/* CSS */
+
+/* importando as fontes utilizadas */
 @import url('https://fonts.googleapis.com/css?family=Poppins:%20200,300,400,500,600,700,800,90&display=swap');
 
+/* definições globais: fonte, margem, padding, decorações de texto */
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
 
+/* definindo a cor de fundo, cor dos textos gerais, tamanho da tela, margem pra fora e pra dentro(padding) */
 body{
     background-color: rgb(34, 34, 34);
     color: white;
-    font-family: poppinsregular;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 15px;
 }
 
+/* cabeçalho */
+
+/* definindo direção dos elementos em geral, assim como espaçamento, e alinhamento de itens */
 header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /*define o display flex*/
+    flex-direction: row; /* itens em linha */
+    justify-content: space-between; /*espaço entre os itens*/
+    align-items: center; /* alinhamento ao centro */
+    padding: 20px 90px;  /* margem interna (laterias / superior e inferior */
 }
 
-header .imagem {
-    width: 100px;
+/* definindo tamanho da logo */
+header .imagem-menu {
+    width: 120px; 
 }
 
+/* definições gerais para o menu, como a margem */
 header .menu{
-    display: flex;
-    margin: 20px;
+    display: flex; 
+    gap: 32px; /* distancia entre os elementos */
 }
-
+/* definições para decoração dos links */
 header .menu a{
-    text-decoration: none;
-    margin: 9px;
     color: white;
 }
-
+/* definições para o link quando passar o mouse por cima */
 header .menu a:hover{
     color: rgb(68, 109, 221);
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
+/* CONTEÚDO */
+/* definições gerais de conteúdo, como posição, alinhamento, e direção dos itens */
 .conteudo{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-
-}
-
-.conteudo .textos{
-    max-width: 600px;
+    margin: 15px;
+    height: 70vh; /*para ter uma altura de 70% da tela */
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textos{
+    width: 50%; /* para ocupar metade da DIV*/
+}
+
+/* definições gerais dos textos, como alinhamento, tamanho da fonte,  */
+.texto{
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .conteudo h2{
@@ -64,20 +86,20 @@ header .menu a:hover{
 
 .conteudo span{
     color: rgb(68, 109, 221);
-    text-align:center;
 }
 
 .conteudo p{
-    margin-top: -30px;
+    margin-top: 15px;
     line-height: 25px;
     text-align: center;
 }
 
+/* definição de tamanho para a imagem central */
 .conteudo img{
-    width: 500px;
-    margin-top: 75px;
+    width: 600px;
 }
 
+/* definições para os campos de formulário */
 .conteudo form{
     display: flex;
     flex-direction: column;
@@ -86,22 +108,44 @@ header .menu a:hover{
 
 .conteudo input{
     margin-top: 20px;
-    height: 20px;
+    height: 50px;
     padding: 15px;
     border-radius: 13px;
     border: none;
     font-size: 15px;
 }
 
+/* definições para o botão de submissão */
 .conteudo form [type="submit"]{
-    height: 50px;
-    width: 100%;
     background-color: rgb(68, 109, 221);
     color: white;
     font-weight: bold;
 }
-
+/* definições para o botão de submissão ao passar o mouse por cima */
 .conteudo form [type="submit"]:hover{
     cursor: pointer;
     background-color: rgb(36, 78, 195);
+}
+
+/* RODAPÉ */
+/* definindo espaçamento, alinhamento e posição do rodapé */
+footer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* tamanho do texto */
+footer p{
+    font-size: 13px;
+}
+/* barra utilizada */
+hr {
+    width: 100%;
+    border: none;
+    height: 1px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right, transparent, rgb(36, 78, 195) , transparent);  
+    /* background: rgb(36, 78, 195); */
 }
