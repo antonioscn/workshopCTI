@@ -7,10 +7,10 @@
  
 ## ✨ Visualiser
 
-![alt text](https://raw.githubusercontent.com/antonioscn/workshopCTI/main/page.png)
+![alt text](https://raw.githubusercontent.com/antonioscn/workshopCTI/main/imgs/projetoFinal.png)
  
  
 ## 🔗 Deploy
-  Veja o deploy do projeto [Newsletter](https://antonioscn.github.io/workshopCTI/).
+  Veja o deploy do projeto [Newsletter](https://workshopcti-final.vercel.app/).
 
 ---
