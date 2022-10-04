@@ -1,0 +1,84 @@
+/* CSS - Projeto 2 */
+
+/* importando as fontes utilizadas */
+@import url('https://fonts.googleapis.com/css?family=Poppins:%20200,300,400,500,600,700,800,90&display=swap');
+
+/* definições globais */
+*{
+    margin: 0; /* Zerando a margem externa */
+    padding: 0;/* Zerando a amrgem interna  */
+    box-sizing: border-box; /* Definindo que larguras serão até a borda */
+    text-decoration: none; /* retirando decorações dos textos (ex: links sublinhados */
+    font-family: 'Poppins', sans-serif; /* Definindo as fontes padrões da página */
+}
+
+/* CABEÇALHO*/
+/* Estilizando pela tag */
+header{
+    display: flex; /*define o display flex*/
+    flex-direction: row; /* itens em linha */
+    justify-content: space-between; /*espaço entre os itens*/
+    align-items: center; /* alinhamento ao centro */
+    padding: 20px 90px;  /* margem interna (laterias / superior e inferior */
+    margin: 20px;
+}
+
+/* estilizando o menu */
+header nav a{
+    margin: 20px;  /* adicionando margens */
+    color: rgb(32,99,137); /* adicionando cor ao texto*/
+}
+
+/* Estilizando pela classe */
+.logo{
+    width: 150px; /* definindo o tamanho da logo  */
+}
+
+/* CONTEUDO PRINCIPAL */
+/* Estilizando o Body pela tag */
+body{
+    display: flex; /* Definindo o display como flex para usar propriedades do flex box */
+    flex-direction: column; /* Definindo de os itens em coluna*/
+    align-items: center; /* Alinhado itens ao centro*/
+    height: 100vh; /* Definindo que o site ocupe a tela inteira (verticalmente)*/
+    justify-content: center; /* Definindo espaçamento entre os itens / justificando mais distante */
+}
+
+.conteudo-principal{
+    width: 50vw;/* Definindo que o site ocupe a tela inteira (horizontalmente)*/
+    display: flex; /* Definindo o display como flex para usar propriedades do flex box */
+    flex-direction: column; /* Definindo espaçamento entre os itens / justificando */
+    justify-content: center; /* Definindo espaçamento entre os itens / justificando ao centro*/
+}
+
+.titulo{
+    text-align: center; /* Alinhando o texto ao centro*/
+    color: rgb(32,99,137); /* Definindo cor do texto*/
+}
+
+.formulario form{
+    display: flex; /* Definindo o display como flex para usar propriedades do flex box */
+    flex-direction: column; /* Definindo de os itens em coluna*/
+    margin-top: 20px; /* Definindo margem em relação ao topo)*/
+    gap: 10px; /* Definindo espaçamento entre os itens dentro do form)*/
+}
+
+/* Campos do formulário*/
+.formulario form input{
+    padding: 15px; /* Definindo margem interna*/
+    border-radius: 13px; /* Definindo uma borda arredondada*/
+    border: solid 0.1px; /* Definindo que os componentens tenham uma bora visivel e mais fina*/
+    font-size: 15px; /* Definindo tamanho da fonte interna*/
+}
+/* botão de submissão do formulário*/
+.formulario form [type="submit"]{
+    background-color:rgb(32,99,137); /* Definindo cor de fundo do botão de enviar*/
+    color: white; /* Definindo cor da letra*/
+    font-weight: bold; /* Colocando letras em negrito*/
+}
+/* botão de submissão do formulário ao passar o mouse*/
+.formulario form [type="submit"]:hover{
+    background-color:rgb(23, 72, 100); /* Definindo cor de fundo do botão de enviar ao passar o mouse*/
+    cursor: pointer; /* Definindo tipo de cursor no botão de enviar ao passar o mouse*/
+}
+
