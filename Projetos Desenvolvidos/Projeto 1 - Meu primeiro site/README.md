@@ -11,6 +11,6 @@
  
  
 ## 🔗 Deploy
-  Veja o deploy do projeto [Olá, mundo!!](workshopcti-p1.vercel.app).
+  Veja o deploy do projeto [Olá, mundo!!](https://workshopcti-p1.vercel.app).
 
 ---
