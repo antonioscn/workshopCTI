@@ -11,6 +11,6 @@
  
  
 ## 🔗 Deploy
-  Veja o deploy do projeto [Formulario](workshopcti-p2.vercel.app).
+  Veja o deploy do projeto [Formulario](https://workshopcti-p2.vercel.app/).
 
 ---
