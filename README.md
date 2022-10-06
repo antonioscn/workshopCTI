@@ -25,11 +25,20 @@ Esse projeto foi desenvolvido com as tecnologias:
 
 ## ✨ Visualiser
 
-<h4> Parte 1 - Somente o html</h4>
- <img src="https://raw.githubusercontent.com/antonioscn/workshopCTI/main/imgs/projeto1.png" width="500"/> 
- <h4> Parte 2 - Adicionando CSS a parte 1</h4>
- <img src="https://raw.githubusercontent.com/antonioscn/workshopCTI/main/imgs/projeto2.png" width="500"/> 
-<h4> Projeto Final - Adicionando novos componentes</h4>
-  <img src="https://raw.githubusercontent.com/antonioscn/workshopCTI/main/imgs/projetofinal.png" alt="drawing" width="500"/>
+<h4> Formulário - Parte 1 (Somente o HTML)</h4>
+<a href="http://workshopcti-p1.vercel.app">
+  <img src="https://raw.githubusercontent.com/antonioscn/workshopCTI/main/imgs/projeto1.png" width="500"/>
+</a>
+
+ <h4> Formulário - Parte 2 (HTML e CSS)</h4>
+ <a href="http://workshopcti-p2.vercel.app">
+ <img src="https://raw.githubusercontent.com/antonioscn/workshopCTI/main/imgs/projeto2.png" width="500"/>
+ </a>
+
+<h4> Projeto Final</h4>
+<a href="http://workshopcti-final.vercel.app"> 
+<img src="https://raw.githubusercontent.com/antonioscn/workshopCTI/main/imgs/projetofinal.png" alt="drawing" width="500"/>
+</a>
+
 
 ---
