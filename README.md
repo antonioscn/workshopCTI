@@ -10,8 +10,10 @@ O Projeto surgiu a partir da parceria estabelecida entre o Instituto Recôncavo 
 
 O Objetivo deste minicurso é introduzir os participantes sobre os passos iniciais necessários para a produção de páginas web, além de realizar alguns projetos práticos.
 
+* A pasta "minicurso" foi a pasta inicial disponibilizados aos estudantes durante a apresentação, ou seja, uma pasta que só continha algumas imagens, onde posteriormente foram incrementados todos os códigos construidos.
+
 <p align="center">
-<i>OBS: Por ser um curso introdutório a parte de responsividade não foi desenvolvida.</i>
+<i>OBS: Por ser um minicurso introdutório a parte de responsividade não foi desenvolvida.</i>
 
 ## 🎌 Apresentação
 - Confira os slides utilizados durante o curso [Clique aqui!](https://www.canva.com/design/DAFNkJaI29Q/KZu8jc8hdUPhBtKN6alZWw/view?utm_content=DAFNkJaI29Q&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent).
