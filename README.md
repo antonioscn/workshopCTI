@@ -25,9 +25,9 @@ Esse projeto foi desenvolvido com as tecnologias:
 
 ## ✨ Visualiser
 
-<h4> Projeto 1</h4>
+<h4> Parte 1</h4>
  <img src="https://raw.githubusercontent.com/antonioscn/workshopCTI/main/imgs/projeto1.png" width="500"/> 
- <h4> Projeto 2</h4>
+ <h4> Parte 2</h4>
  <img src="https://raw.githubusercontent.com/antonioscn/workshopCTI/main/imgs/projeto2.png" width="500"/> 
 <h4> Projeto Final</h4>
   <img src="https://raw.githubusercontent.com/antonioscn/workshopCTI/main/imgs/projetofinal.png" alt="drawing" width="500"/>
