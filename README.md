@@ -30,6 +30,6 @@ Esse projeto foi desenvolvido com as tecnologias:
  <h4> Projeto 2</h4>
  <img src="https://raw.githubusercontent.com/antonioscn/workshopCTI/main/imgs/projeto2.png" width="500"/> 
 <h4> Projeto Final</h4>
-  <img src="https://raw.githubusercontent.com/antonioscn/workshopCTI/main/imgs/projetoFinal.png" alt="drawing" width="500"/>
+  <img src="https://raw.githubusercontent.com/antonioscn/workshopCTI/main/imgs/projetofinal.png" alt="drawing" width="500"/>
 
 ---
