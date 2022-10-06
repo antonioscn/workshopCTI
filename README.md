@@ -25,11 +25,11 @@ Esse projeto foi desenvolvido com as tecnologias:
 
 ## ✨ Visualiser
 
-<h4> Parte 1</h4>
+<h4> Parte 1 - Somente o html</h4>
  <img src="https://raw.githubusercontent.com/antonioscn/workshopCTI/main/imgs/projeto1.png" width="500"/> 
- <h4> Parte 2</h4>
+ <h4> Parte 2 - Adicionando CSS a parte 1</h4>
  <img src="https://raw.githubusercontent.com/antonioscn/workshopCTI/main/imgs/projeto2.png" width="500"/> 
-<h4> Projeto Final</h4>
+<h4> Projeto Final - Adicionando novos componentes</h4>
   <img src="https://raw.githubusercontent.com/antonioscn/workshopCTI/main/imgs/projetofinal.png" alt="drawing" width="500"/>
 
 ---
