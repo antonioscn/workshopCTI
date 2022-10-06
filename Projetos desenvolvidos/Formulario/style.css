@@ -1,0 +1,122 @@
+
+/* CSS */
+
+/* importando as fontes utilizadas */
+@import url('https://fonts.googleapis.com/css?family=Poppins:%20200,300,400,500,600,700,800,90&display=swap');
+
+/* definições globais */
+*{
+    margin: 0; /* Zerando a margem externa */
+    padding: 0;/* Zerando a amrgem interna  */
+    font-family: 'Poppins', sans-serif; /* Definindo as fontes padrões da página */
+}
+
+/* CONTEUDO PRINCIPAL */
+/* Estilizando o Body pela tag */
+body{
+    background-color: rgb(34, 34, 34); /* definindo cor do background (fundo) */
+    color: white; /* definindo cor dos textos  */
+
+    display: flex; /* Definindo o display como flex para usar propriedades do flex box */
+    flex-direction: column; /* Definindo de os itens em coluna*/
+    justify-content: space-between; /* Definindo espaçamento entre os itens / justificando mais distante */
+    height: 100vh; /* Definindo que o site ocupe a tela inteira (verticalmente)*/
+}
+
+
+/* cabeçalho */
+header{
+    display: flex; /*define o display flex*/
+    flex-direction: row; /* direção dos itens em linha */
+    justify-content: center; /*espaço entre os itens*/
+    align-items: center; /* alinhamento ao centro */
+    padding: 20px 90px;  /* margem interna (laterias / superior e inferior */
+}
+
+/* definições gerais para o menu*/
+header .menu{
+    display: flex; /*define o display flex*/
+    gap: 32px; /* distancia entre os elementos */
+    
+}
+
+/* definições para decoração dos links */
+header .menu a{
+    color: white; /* definindo cor dos textos  */
+    text-decoration: none; /* retirando decorações dos textos (ex: links sublinhados */
+}
+
+
+/* CONTEÚDO */
+.conteudo{
+    display: flex; /*define o display flex*/
+    align-items: center; /* alinhamento ao centro */
+    justify-content: center; /*espaço entre os itens*/
+}
+
+
+.conteudo-principal{
+    display: flex; /*define o display flex*/
+    align-items: center; /* alinhamento ao centro */
+    justify-content: center; /*espaço entre os itens*/
+    width: 100%; /* definindo largura total do elemento */
+}
+
+.textos{
+    width: 50%; /* para ocupar metade da DIV*/
+}
+
+/* definições gerais dos textos, como alinhamento, tamanho da fonte,  */
+.texto{
+    display: flex; /*define o display flex*/
+    flex-direction: column; /* direção dos itens em coluna */
+    align-items: center; /* alinhamento ao centro */
+    justify-content: space-between; /*espaço entre os itens*/
+}
+
+.conteudo h2{
+    font-size: 56px; /* tamanho das letras */
+    text-align: center; /* alinhamento o texto ao centro */
+    line-height: 50px; /* definindo altura da linha */
+}
+
+
+/* definições para os campos de formulário */
+.conteudo form{
+    display: flex; /*define o display flex*/
+    flex-direction: column; /* direção dos itens em coluna */
+    width: 100%;
+}
+
+.conteudo input{
+    margin-top: 20px; /*margem em relação ao topo*/
+    padding: 15px; /*margem interna*/
+    border-radius: 13px; /*bordas arredondadas*/
+    border: none; /*sem bordas aparentes*/
+    font-size: 15px; /*tamanho da fonte*/
+}
+
+/* definições para o botão de enviar, selecionado pelo type */
+.conteudo form [type="submit"]{
+    background-color: rgb(68, 109, 221); /*definindo cor de fundo*/
+    color: white; /*definindo cor das letras*/
+    font-weight: bold; /*definindo negrito nas letras*/
+}
+/* definições para o botão de submissão ao passar o mouse por cima */
+.conteudo form [type="submit"]:hover{
+    cursor: pointer; /*definindo tipo de cursor*/
+    background-color: rgb(36, 78, 195); /*definindo cor de fundo*/
+}
+
+/* RODAPÉ */
+/* definindo espaçamento, alinhamento e posição do rodapé */
+footer{
+    display: flex; /*define o display flex*/
+    flex-direction: column; /* direção dos itens em coluna */
+    align-items: center; /* alinhamento ao centro */
+    justify-content: center; /*espaço entre os itens*/
+    height: 70px; /*altura do footer*/
+    font-size: 13px; /* tamanho do texto */
+    text-align: center; /* alinhamento do texto ao centro */
+}
+
