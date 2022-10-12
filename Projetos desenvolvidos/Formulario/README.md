@@ -6,7 +6,7 @@
  <br>
  
 ## ℹ️ Informações
-O Projeto foidividido em duas partes (uma somente com HTML, e outra com o incremento do CSS)
+O Projeto foi dividido em duas partes, uma somente com HTML, e outra com o incremento do CSS.
 
 ## ✨ Visualiser
 
