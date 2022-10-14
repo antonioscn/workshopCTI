@@ -16,7 +16,7 @@ O Objetivo deste minicurso é introduzir os participantes sobre os passos inicia
 <i>OBS: Por ser um minicurso introdutório a parte de responsividade não foi desenvolvida.</i>
 
 ## 🎌 Apresentação
-- Confira os slides utilizados durante o curso [Clique aqui!](https://www.canva.com/design/DAFNkJaI29Q/KZu8jc8hdUPhBtKN6alZWw/view?utm_content=DAFNkJaI29Q&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent).
+- Confira os slides utilizados durante o curso [Clique aqui!](https://www.canva.com/design/DAFO88KdiV4/zKXBlivkpBJeMVnr456UkA/view?utm_content=DAFO88KdiV4&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent).
 
 ## 💻 Tecnologias Usadas
 
