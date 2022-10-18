@@ -67,14 +67,14 @@ header .menu a{
 }
 
 /* definições gerais dos textos, como alinhamento, tamanho da fonte,  */
-.texto{
+.titulo{
     display: flex; /*define o display flex*/
     flex-direction: column; /* direção dos itens em coluna */
     align-items: center; /* alinhamento ao centro */
     justify-content: space-between; /*espaço entre os itens*/
 }
 
-.conteudo h2{
+.conteudo h1{
     font-size: 56px; /* tamanho das letras */
     text-align: center; /* alinhamento o texto ao centro */
     line-height: 50px; /* definindo altura da linha */
