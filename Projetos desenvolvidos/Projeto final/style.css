@@ -73,7 +73,7 @@ header .menu a{
 }
 
 /* definições gerais dos textos, como alinhamento, tamanho da fonte,  */
-.texto{
+.titulo{
     display: flex; /*define o display flex*/
     flex-direction: column; /* direção dos itens em coluna */
     align-items: center; /* alinhamento ao centro */
